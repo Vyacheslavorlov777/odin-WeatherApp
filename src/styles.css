@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'library';
+  src: url(/asset/resource/fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+/* header */
+
+header {
+  height: 10vh;
+}
+
+nav {
+  height: 10vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-menu {
+  cursor: pointer;
+  font-family: 'library';
+  width: 200px;
+  height: 40px;
+  border-radius: 100px;
+  border: 0.5px solid #2a0404cc;
+  font-size: 20px;
+  transition: 0.5s;
+  background-image: url(../asset/resource/img/kamen-tekstury.jpg);
+}
+
+.btn-menu:hover {
+    box-shadow: 0 10px 15px 0 #30aa2edd;
+    transform: scale(1.3);
+}
+
+.menu {
+  background-image: url(../asset/resource/img/pustoi-monohromnyi-zelenyi-okrasennyi-fon.jpg);
+  background-position: 25% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu:hover {
+  box-shadow: 0 5px 15px 0 #ffffffdd;
+}
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'library';
+  background-image: url(../asset/resource/img/blurBGI.jpg);
+  background-position: 25% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  width: 80vw;
+  background-color: #3c0e0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-image: url(../asset/resource/img/kamen-tekstury.jpg);
+  background-position: 25% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__position {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  width: 100px;
+  height: 200px;
+}
+
+.container {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: #5a5a5a18;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 #00000033;
+}
+
+.namePosition {
+  color: rgba(10, 133, 41, 0.997);
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.optionPosition {
+  font-style: italic;
+  font-size: 1.1rem;
+  width: 100%;
+  height: 100%
+}
+
+
+.hr {
+  height: 30px;
+  width: 300px;
+  border-bottom: 1px solid rgba(85, 83, 83, 0.794);
+}
+
+.price-container {
+  display: flex;
+  justify-content: end;
+}
+
+/* main */
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bgc_line {
+  color: #000000;
+  width: 100%;
+  height: 100%;
+  background-image: url(../asset/resource/img/pustoi-monohromnyi-zelenyi-okrasennyi-fon.jpg);
+  background-position: 25% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name__if {
+  color: rgb(255, 255, 255);
+}
+
+.line__posit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+
+.line__img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 450px;
+}
+
+.line__img__img {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+}
+
+
+img {
+  size: 2;
+}
+
+.containerMain {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.informationRestouran {
+  text-align: center;
+}
+/* contacts */
+
+.containerContact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+
+footer {
+  height: 10vh;
+  margin-top: 30px;
+}
+
+.telega {
+  font-size: 15px;
+  padding-bottom: 20px;
+  transition: 1s;
+}
+
+a {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 5px 15px 0 #0c0a0afd;;
+}
+
+.telega:hover {
+    transform: scale(1.8);
+}
